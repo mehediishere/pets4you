@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Pets4You - Pets Foods</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chelsea+Market">
+    <link rel="stylesheet" href="assets/css/DroidSans.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jaldi:400,700&amp;subset=devanagari">
+    <link rel="stylesheet" href="assets/css/Roboto.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/cartStyle.css">
+    <link rel="stylesheet" href="assets/css/pet-category-post.css">
+    <link rel="stylesheet" href="assets/css/pet-custom-image-tab.css">
+    <link rel="stylesheet" href="assets/css/pet-custom-nav-bar.css">
+    <link rel="stylesheet" href="assets/css/pet-login-join.css">
+    <link rel="stylesheet" href="assets/css/shadowAnimation.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="font-family: Jaldi, sans-serif;background: #F7F7F7;">
+    <!-- Start: Nav bar UI -->
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button" style="background: #fcb843;color: rgb(255,255,255);font-family: 'Chelsea Market', serif;">
+        <div class="container"><a class="navbar-brand" href="#" style="font-family: 'Chelsea Market', serif;font-size: 30px;">Pets4You</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto" style="color: rgb(255, 255, 255);">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-food.html">Pets Food</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-category.html">Pets Adoption</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-advice.html">Pets Advice</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Breeds&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Cat Breeds</a><a class="dropdown-item" href="pets-category.html">Dog Breeds</a><a class="dropdown-item" href="#">Exotics Breeds</a><a class="dropdown-item" href="#">Bird Breeds</a><a class="dropdown-item" href="#">Other Breeds</a></div>
+                    </li>
+                </ul><span class="navbar-text actions"> <a class="login" href="login.html">Log In</a><a class="btn btn-light action-button" role="button" href="join.html">Join Us</a></span>
+            </div>
+        </div>
+    </nav><!-- End: Nav bar UI -->
+    <main class="page catalog-page">
+        <!-- Start: item cart -->
+        <div class="ptc d-flex justify-content-center align-middle"><span style="color: orange;"><i class="fas fa-shopping-bag"></i>&nbsp;0 ITEM</span></div><!-- End: item cart -->
+        <section class="clean-block clean-catalog dark">
+            <div class="container mt-md-5">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-3 mt-3" style="border: 1px solid orange;background-color: white;box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+                            <div class="d-none d-md-block">
+                                <div class="filters">
+                                    <h3 style="text-align: center;font-family: DroidSans;font-weight: bold;color: orange;">Refine Search</h3>
+                                    <div class="filter-item">
+                                        <h5 style="text-align: left;">Brands</h5>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">AKELA PET FOODS LTD</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">ALBION COUNTRY BOWL</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">BILLY AND MARGOT</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">BURGESS PET CARE</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-44"><label class="form-check-label" for="formCheck-44">HILL’S PET NUTRITION</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">NATURAL VETCARE</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">LILYS KITCHEN</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">MARK &amp; CHAPPELL</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">ROYAL CANIN</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">OTHER</label></div>
+                                    </div>
+                                    <div class="filter-item">
+                                        <h5>Pet Type</h5>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10">Bird</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-11">Cat</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label" for="formCheck-12">Dog</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-13"><label class="form-check-label" for="formCheck-13">Fish</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14"><label class="form-check-label" for="formCheck-14">Rabbit</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-15"><label class="form-check-label" for="formCheck-15">Reptiles</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-16"><label class="form-check-label" for="formCheck-16">Pet Poultry</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-17"><label class="form-check-label" for="formCheck-17">Other</label></div>
+                                    </div>
+                                    <div class="filter-item">
+                                        <h5>Bag Size</h5>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-18"><label class="form-check-label" for="formCheck-18">&lt; 0.5kg</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-19"><label class="form-check-label" for="formCheck-19">1.0 kg</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-20"><label class="form-check-label" for="formCheck-20">(+/-) 1.5 kg</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-21"><label class="form-check-label" for="formCheck-21">2.0 kg</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-22"><label class="form-check-label" for="formCheck-22">(+/-) 2.5 kg</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-23"><label class="form-check-label" for="formCheck-23">3.0 kg</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-24"><label class="form-check-label" for="formCheck-24">&gt; 3.0 kg</label></div>
+                                    </div>
+                                    <div class="filter-item">
+                                        <h5>Flavour</h5>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-25"><label class="form-check-label" for="formCheck-25">Beef</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-26"><label class="form-check-label" for="formCheck-26">Chicken</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-27"><label class="form-check-label" for="formCheck-27">Fish</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-28"><label class="form-check-label" for="formCheck-28">Milk</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-29"><label class="form-check-label" for="formCheck-29">Pork</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-30"><label class="form-check-label" for="formCheck-30">Rice</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-31"><label class="form-check-label" for="formCheck-31">Salmon</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-32"><label class="form-check-label" for="formCheck-32">Vegetables</label></div>
+                                    </div>
+                                </div>
+                                <div><button class="btn btn-block btn-sm pet_src_btn" type="button">Update Search</button></div>
+                            </div>
+                            <div class="d-md-none"><a class="btn btn-link btn-block d-md-none filter-collapse petC_collapsBtn" data-toggle="collapse" aria-expanded="false" aria-controls="filters" href="#filters" role="button" style="color: var(--orange);font-weight: bold;">Category&nbsp;<i class="fas fa-angle-double-down filter-caret"></i></a>
+                                <div class="collapse" id="filters">
+                                    <div class="filters">
+                                        <div class="filter-item">
+                                            <h3 style="text-align: left;">Brands</h3>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-33"><label class="form-check-label" for="formCheck-1">AKELA PET FOODS LTD</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-34"><label class="form-check-label" for="formCheck-2">ALBION COUNTRY BOWL</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-35"><label class="form-check-label" for="formCheck-3">BILLY AND MARGOT</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-36"><label class="form-check-label" for="formCheck-4">BURGESS PET CARE</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-37"><label class="form-check-label" for="formCheck-5">HILL’S PET NUTRITION</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-38"><label class="form-check-label" for="formCheck-5">NATURAL VETCARE</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-39"><label class="form-check-label" for="formCheck-6">LILYS KITCHEN</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-40"><label class="form-check-label" for="formCheck-7">MARK &amp; CHAPPELL</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-41"><label class="form-check-label" for="formCheck-8">ROYAL CANIN</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-42"><label class="form-check-label" for="formCheck-9">OTHER</label></div>
+                                        </div>
+                                        <div class="filter-item">
+                                            <h3>Pet Type</h3>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-43"><label class="form-check-label" for="formCheck-10">Bird</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-44"><label class="form-check-label" for="formCheck-11">Cat</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-45"><label class="form-check-label" for="formCheck-12">Dog</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-46"><label class="form-check-label" for="formCheck-13">Fish</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-47"><label class="form-check-label" for="formCheck-14">Rabbit</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-48"><label class="form-check-label" for="formCheck-15">Reptiles</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-49"><label class="form-check-label" for="formCheck-16">Pet Poultry</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-50"><label class="form-check-label" for="formCheck-17">Other</label></div>
+                                        </div>
+                                        <div class="filter-item">
+                                            <h3>Bag Size</h3>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-51"><label class="form-check-label" for="formCheck-18">&lt; 0.5kg</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-52"><label class="form-check-label" for="formCheck-19">1.0 kg</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-53"><label class="form-check-label" for="formCheck-20">(+/-) 1.5 kg</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-54"><label class="form-check-label" for="formCheck-21">2.0 kg</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-55"><label class="form-check-label" for="formCheck-22">(+/-) 2.5 kg</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-56"><label class="form-check-label" for="formCheck-23">3.0 kg</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-57"><label class="form-check-label" for="formCheck-24">&gt; 3.0 kg</label></div>
+                                        </div>
+                                        <div class="filter-item">
+                                            <h3>Flavour</h3>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-58"><label class="form-check-label" for="formCheck-25">Beef</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-59"><label class="form-check-label" for="formCheck-26">Chicken</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-60"><label class="form-check-label" for="formCheck-27">Fish</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-61"><label class="form-check-label" for="formCheck-28">Milk</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-62"><label class="form-check-label" for="formCheck-29">Pork</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-63"><label class="form-check-label" for="formCheck-30">Rice</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-64"><label class="form-check-label" for="formCheck-31">Salmon</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-65"><label class="form-check-label" for="formCheck-32">Vegetables</label></div>
+                                        </div>
+                                        <div class="mb-4"><button class="btn btn-block btn-sm pet_src_btn" type="button">Update Search</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="products">
+                                <div class="ml-3"><span>Sort By</span><select class="form-control pet_select_item" style="max-width: 240px;font-size: 18px;padding-top: 2px;">
+                                        <option value="12" selected="">Most Popular</option>
+                                        <option value="">Name</option>
+                                        <option value="13">Price : High to Low</option>
+                                        <option value="14">Price : Low to High</option>
+                                    </select></div>
+                                <div class="row no-gutters">
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/2152005_ddsyqt.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">1.5 kg</p>
+                                                <p style="font-size: 18px;">lorem ipsum dolor sit amet<br></p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/5025838006180_T19.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">1.5 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/7613034276551_t517_wombu8.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">2.7 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/whiskas_1_chicken_gv4pmk.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">1.5 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/SP_604055_Packshot_mgfaj7.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">1.5 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/5025838999918_T14.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">1.5 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/2152005_ddsyqt.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">1.5 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/7613034276551_t517_wombu8.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">2.7 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4" style="padding: 20px;">
+                                        <div class="pet_food_categoryDiv">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/Product/5025838999918_T14.jpg" loading="lazy" alt="food"></a></div>
+                                            <div class="product-name">
+                                                <p style="text-align: center;margin-bottom: 0;color: gray;">1.5 kg</p><p style="font-size: 18px;">lorem ipsum dolor sit amet</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: orange;"><strong>BDT</strong> 1,500</h5><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <nav class="ml-3">
+                                        <ul class="pagination">
+                                            <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">16</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">17</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">18</a></li>
+                                            <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Start: item cart 2 -->
+        <div class="ptc2"><span class="mr-5" style="font-size: 25px;color: orange;background-color: white;border-radius: 10px 100px / 120px;">&nbsp; &nbsp; &nbsp;<i class="fas fa-shopping-bag"></i>&nbsp; 0 ITEM&nbsp; &nbsp;&nbsp;</span></div><!-- End: item cart 2 -->
+    </main><!-- Start: Footer -->
+    <section>
+        <div class="d-flex justify-content-center mt-3 pt-2 pb-2" style="border-top: 2px solid orange;background-color: #FCB843;">
+            <h5 class="d-none d-sm-block" style="color: rgb(255,255,255);margin-top: 9px;font-size: 16px;">Safe and secure shopping :&nbsp; &nbsp;</h5><img class="mr-2" src="assets/img/payment/BKash-bKash-Logo.wine_65x46.png" style="height: 38px;"><img class="mr-2" src="assets/img/payment/logo-footer.png" style="height: 26px;margin-top: 5px;"><img src="assets/img/payment/master-card.png" style="height: 36px;"><img src="assets/img/payment/visa.png" style="height: 36px;">
+        </div><!-- Start: ♣ Footer with only BS4 classes ♣ -->
+        <footer class="bg-dark text-white border-top border-info">
+            <!-- Start: Footer 1 -->
+            <div class="container text-center text-sm-left position-relative py-5">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Connect With Us</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Like us on Facebook</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Follow us on Twitter</a></li>
+                            <li class="mb-2"><a class="text-light" href="#" style="text-decoration: none;">
+                                    <h1 style="font-family: 'Chelsea Market', serif;font-weight: bold;">Pets4You</h1>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Dogs &amp; Puppies 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Chihuahuas</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Cocker Spaniels</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">French Bulldogs</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Jackapoo</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Labradors</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Rottweiler</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Cats &amp; Kittens 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Bengals&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Shorthairs&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Oriental Cats</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Persian Cats</a></li>
+                            <li>Ragdoll Cats</li>
+                            <li>Snowshoe</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Other Pets 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Birds</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Fish&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Horses&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Poultry&nbsp;</a></li>
+                            <li>Rabbits </li>
+                            <li>Rodents </li>
+                        </ul>
+                    </div>
+                </div><!-- Start: To top icon -->
+                <div class="text-center position-absolute w-100 mt-4"><a href="#top"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-dark"></i><i class="fa fa-angle-up fa-stack-1x text-white"></i></span></a></div><!-- End: To top icon -->
+            </div><!-- End: Footer 1 -->
+            <!-- Start: Footer 2 -->
+            <div class="pt-5 pb-4 text-dark" style="background-color: #FCB843;">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start: Company -->
+                        <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                            <h2 class="mb-3"><i class="fas fa-cat"></i>&nbsp;Pets4You</h2>
+                            <p class="mb-1"><i class="fa fa-map-marker fa-fw"></i>&nbsp;Pizza Road - Mirpur - Dhaka</p>
+                            <p class="mb-1"><i class="fa fa-phone fa-fw"></i>&nbsp;+880157526**77</p>
+                            <p class="mb-1"><i class="fa fa-envelope fa-fw"></i>&nbsp;<a class="text-dark" href="mailto:contact@company.com">contact@pets4you.com</a></p>
+                        </div><!-- End: Company -->
+                        <!-- Start: Text -->
+                        <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                            <p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div><!-- End: Text -->
+                        <!-- Start: Newsletter + social icons -->
+                        <div class="col-lg-4 text-center text-lg-right pb-4">
+                            <h3 class="mb-0">Follow us</h3>
+                            <p class="mb-2">Subscribe to our newsletter</p>
+                            <form class="d-flex justify-content-center justify-content-lg-end">
+                                <div class="form-group w-75">
+                                    <div class="input-group"><input class="form-control" type="text" required="" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$" inputmode="email">
+                                        <div class="input-group-append"><button class="btn btn-dark" type="submit">Go!</button></div>
+                                    </div>
+                                </div>
+                            </form><!-- Start: Socials -->
+                            <div><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-instagram fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-twitter fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-facebook-square fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-snapchat-ghost fa-2x"></i></a></div><!-- End: Socials -->
+                        </div><!-- End: Newsletter + social icons -->
+                    </div>
+                </div>
+            </div><!-- End: Footer 2 -->
+            <!-- Start: Copyright -->
+            <div class="text-center text-lg-left py-2 small bg-dark text-info font-italic">
+                <div class="container">
+                    <p class="m-0" style="color: orange;">© 2021 Pets4You ~ All rights reserved</p>
+                </div>
+            </div><!-- End: Copyright -->
+        </footer><!-- End: ♣ Footer with only BS4 classes ♣ -->
+    </section><!-- End: Footer -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Image-Tab-Gallery-Horizontal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Pets4You - Home</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chelsea+Market">
+    <link rel="stylesheet" href="assets/css/DroidSans.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jaldi:400,700&amp;subset=devanagari">
+    <link rel="stylesheet" href="assets/css/Roboto.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/cartStyle.css">
+    <link rel="stylesheet" href="assets/css/pet-category-post.css">
+    <link rel="stylesheet" href="assets/css/pet-custom-image-tab.css">
+    <link rel="stylesheet" href="assets/css/pet-custom-nav-bar.css">
+    <link rel="stylesheet" href="assets/css/pet-login-join.css">
+    <link rel="stylesheet" href="assets/css/shadowAnimation.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: #F7F7F7;font-family: Jaldi, sans-serif;">
+    <!-- Start: Nav bar UI -->
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button" style="background: #fcb843;color: rgb(255,255,255);font-family: 'Chelsea Market', serif;">
+        <div class="container"><a class="navbar-brand" href="#" style="font-family: 'Chelsea Market', serif;font-size: 30px;">Pets4You</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto" style="color: rgb(255, 255, 255);">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-food.html">Pets Food</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-category.html">Pets Adoption</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-advice.html">Pets Advice</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Breeds&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Cat Breeds</a><a class="dropdown-item" href="pets-category.html">Dog Breeds</a><a class="dropdown-item" href="#">Exotics Breeds</a><a class="dropdown-item" href="#">Bird Breeds</a><a class="dropdown-item" href="#">Other Breeds</a></div>
+                    </li>
+                </ul><span class="navbar-text actions"> <a class="login" href="login.html">Log In</a><a class="btn btn-light action-button" role="button" href="join.html">Join Us</a></span>
+            </div>
+        </div>
+    </nav><!-- End: Nav bar UI -->
+    <!-- Start: location -->
+    <section class="bcImage">
+        <div class="container" style="padding-top: 50px!important;padding-bottom: 50px!important;">
+            <div class="col-md-8 col-lg-6 col-xl-5 p-3" style="background: rgba(255,255,255,0.76);">
+                <h1 style="font-weight: bold;color: #FCB843;"><strong>Find your perfect pet</strong></h1>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col col"><label style="font-size: 14px;color: #FCB843;font-weight: bold;font-family: DroidSans;">Pet Type</label><select class="form-control pet_select_item" style="font-size: 14px;font-family: DroidSans;padding-top: 5px;">
+                                <option value="all" selected="">Pet Type (Any)</option>
+                                <option value="bird">Birds</option>
+                                <option value="cat">Cat</option>
+                                <option value="dog">Dog</option>
+                                <option value="fish">Fish</option>
+                                <option value="hamester">Hamester</option>
+                                <option value="poultry">Pet Poultry</option>
+                                <option value="rabbit">Rabbit</option>
+                                <option value="reptiles">Reptiles</option>
+                                <option value="rodent">Rodent</option>
+                            </select></div>
+                        <div class="col"><label style="font-size: 14px;color: #FCB843;font-weight: bold;font-family: DroidSans;">Breed Type</label><select class="form-control pet_select_item" style="font-size: 14px;font-family: DroidSans;padding-top: 5px;">
+                                <option value="12" selected="">Pet Breed (Any)</option>
+                            </select></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col"><label style="font-size: 14px;color: #FCB843;font-weight: bold;font-family: DroidSans;">Location</label><input type="text" class="form-control pet_text_input" style="font-size: 14px;" placeholder="Zip Code"></div>
+                        <div class="col"><button class="btn btn-block pet_src_btn waves-effect" style="margin-top: 28px;font-family: DroidSans;">Search</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End: location -->
+    <!-- Start: pets 4 you -->
+    <section>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col col-8 pet_h3">
+                    <h3 style="font-family: Jaldi, sans-serif;color: rgb(252,184,67);font-weight: bold;">Latest Pets4You</h3>
+                </div>
+                <div class="col col-4 text-right"><span class="badge badge-primary" style="background: #FCB843;"><a href="#" style="color: rgb(255,255,255);font-weight: bold;font-size: 14px;text-decoration: none;">View All&nbsp;</a><i class="fas fa-angle-right"></i></span></div>
+            </div>
+            <div class="row mt-2">
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/A-beautiful-pug-pugs-41524314-720-540.jpg" style="height: 210px;border-radius: 0% 30% 50% 70%;" loading="lazy" alt="dog">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;kalshi</span>
+                                <h6 class="card-title d-block d-sm-none">Seal Point Ragdoll Kitten<br></h6>
+                                <h6 class="card-title d-none d-sm-block">Lorem ipsum dolor sit amet...<br></h6>
+                                <p class="card-text" style="color: #FCB843;font-size: 20px;"><strong>BDT</strong>&nbsp;3,500<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/blue-and-green-parakeets.jpg" style="height: 210px;border-radius: 0% 30% 50% 70%;" loading="lazy" alt="bird">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;Mirpur-10</span>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet...<br></h6>
+                                <p class="card-text" style="color: #FCB843;font-size: 20px;"><strong>BDT</strong> 7,000<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/hamster-facts-about-small-mammals-as-pets-thinkstock-155233157.jpg" style="height: 210px;border-radius: 0% 30% 50% 70%;" loading="lazy" alt="mouse">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;Dhanmondi</span>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet...</h6>
+                                <p class="card-text" style="font-size: 20px;color: #FCB843;"><strong>BDT</strong> 9,000<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/bigstock-Yellow-cockatiel-on-female-han-134341226.jpg" style="height: 210px;border-radius: 0% 30% 50% 70%;">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;Dhanmondi</span>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet...</h6>
+                                <p class="card-text" style="color: #FCB843;font-size: 20px;"><strong>BDT</strong> 5,500<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End: pets 4 you -->
+    <!-- Start: articles 4uPets -->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col col-8 pet_h3">
+                    <h3 style="font-family: Jaldi, sans-serif;color: rgb(252,184,67);font-weight: bold;">Latest Articles 4YourPets</h3>
+                </div>
+                <div class="col col-4 text-right"><span class="badge badge-primary" style="background: #FCB843;"><a href="#" style="color: rgb(255,255,255);font-weight: bold;font-size: 14px;text-decoration: none;">Read All&nbsp;</a><i class="fas fa-angle-right"></i></span></div>
+            </div>
+            <div class="row">
+                <div class="col col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/unhappy-bird-545376790.jpg" style="height: 210px;" loading="lazy" alt="bird">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between"><small style="color: var(--gray);">Posted by mh</small><small style="color: var(--gray);">30th April</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/adorable-animal-beautiful-1591939.jpg" style="height: 210px;" loading="lazy" alt="dog">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between"><small style="color: var(--gray);">Posted by mh</small><small style="color: var(--gray);">28th April</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/Naughty-kitten-scratching-blinds-drapes-curtains.jpg" style="height: 210px;" loading="lazy" alt="cat">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between"><small style="color: var(--gray);">Posted by mh</small><small style="color: var(--gray);">23th April</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/Symptoms-of-Dog-Poisoning-1.jpg" style="height: 210px;" loading="lazy" alt="dog">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between"><small style="color: var(--gray);">Posted by mh</small><small style="color: var(--gray);">19th April</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End: articles 4uPets -->
+    <!-- Start: pets category -->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" style="font-family: Jaldi, sans-serif;font-weight: bold;color: rgb(252,184,67);">Fish For Sale</h4><img src="assets/img/gif/fish2.gif" style="position: absolute;width: 150px;height: 80px;bottom: 0;right: 0;" loading="lazy" alt="fish">
+                            <div class="row pet_li">
+                                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-6">
+                                    <ul class="list-unstyled">
+                                        <li>Beagle</li>
+                                        <li>Bulldogs</li>
+                                        <li>Chihuahuas</li>
+                                        <li>Cockapoos</li>
+                                        <li>Shih Tzus</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li>Bulldogs</li>
+                                        <li>Shepherds</li>
+                                        <li>Spaniels</li>
+                                        <li>Labradors</li>
+                                        <li>Mixed Breeds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(252,184,67);font-weight: bold;">Birds For Sale</h4><img src="assets/img/gif/bird.gif" style="position: absolute;width: 100px;height: 100px;bottom: 0;right: 0;transform: scaleX(-1);" loading="lazy" alt="bird">
+                            <div class="row pet_li">
+                                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-6">
+                                    <ul class="list-unstyled">
+                                        <li>Beagle</li>
+                                        <li>Bulldogs</li>
+                                        <li>Chihuahuas</li>
+                                        <li>Cockapoos</li>
+                                        <li>Shih Tzus</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li>Bulldogs</li>
+                                        <li>Shepherds</li>
+                                        <li>Spaniels</li>
+                                        <li>Labradors</li>
+                                        <li>Mixed Breeds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(252,184,67);font-weight: bold;"><strong>Rodents&nbsp;</strong>For Sale</h4><img src="assets/img/gif/Chinchilla.gif" style="position: absolute;width: 150px;height: 150px;bottom: 0;right: 0;" loading="lazy" alt="rodent">
+                            <div class="row pet_li">
+                                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-6">
+                                    <ul class="list-unstyled">
+                                        <li>Beagle</li>
+                                        <li>Bulldogs</li>
+                                        <li>Chihuahuas</li>
+                                        <li>Cockapoos</li>
+                                        <li>Shih Tzus</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li>Bulldogs</li>
+                                        <li>Shepherds</li>
+                                        <li>Spaniels</li>
+                                        <li>Labradors</li>
+                                        <li>Mixed Breeds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(252,184,67);font-weight: bold;">Rabbits For Sale</h4><img src="assets/img/gif/rabit.gif" style="position: absolute;width: 150px;height: 150px;bottom: 0;right: 0;transform: scaleX(-1);" loading="lazy" alt="rabit">
+                            <div class="row pet_li">
+                                <div class="col-xl-4 col-md-6 col-lg-6">
+                                    <ul class="list-unstyled">
+                                        <li>Beagle</li>
+                                        <li>Bulldogs</li>
+                                        <li>Chihuahuas</li>
+                                        <li>Cockapoos</li>
+                                        <li>Shih Tzus</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li>Bulldogs</li>
+                                        <li>Shepherds</li>
+                                        <li>Spaniels</li>
+                                        <li>Labradors</li>
+                                        <li>Mixed Breeds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(252,184,67);font-weight: bold;">Cats For Sale</h4><img src="assets/img/gif/cat1.gif" style="position: absolute;width: 100px;height: 150px;bottom: 0;right: 0;" loading="lazy" alt="cat">
+                            <div class="row pet_li">
+                                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-6">
+                                    <ul class="list-unstyled">
+                                        <li>Beagle</li>
+                                        <li>Bulldogs</li>
+                                        <li>Chihuahuas</li>
+                                        <li>Cockapoos</li>
+                                        <li>Shih Tzus</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li>Bulldogs</li>
+                                        <li>Shepherds</li>
+                                        <li>Spaniels</li>
+                                        <li>Labradors</li>
+                                        <li>Mixed Breeds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" style="font-family: Jaldi, sans-serif;font-weight: bold;color: rgb(252,184,67);">Dogs For Sale</h4><img src="assets/img/gif/dog9.gif" style="position: absolute;width: 150px;height: 150px;bottom: 0;right: 0;" loading="lazy" alt="dog">
+                            <div class="row pet_li">
+                                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-6">
+                                    <ul class="list-unstyled">
+                                        <li>Beagle</li>
+                                        <li>Bulldogs</li>
+                                        <li>Chihuahuas</li>
+                                        <li>Cockapoos</li>
+                                        <li>Shih Tzus</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li>Bulldogs</li>
+                                        <li>Shepherds</li>
+                                        <li>Spaniels</li>
+                                        <li>Labradors</li>
+                                        <li>Mixed Breeds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-3 mb-3"><button class="btn btn-warning pet_button" type="button">View All</button></div>
+        </div>
+    </section><!-- End: pets category -->
+    <!-- Start: Foods 4 pets -->
+    <section>
+        <div class="container mt-5">
+            <h3 style="text-align: center;font-weight: bold;font-family: DroidSans;color: #FCB843;">FIND YOUR PETS FAVOURITE BRANDS, OR TRY ONE THAT’S NEW</h3><!-- Start: Food brands -->
+            <div class="row">
+                <div class="col mt-1" style="text-align: center;"><img class="pet_brand" src="assets/img/Food%20logo/BrandBox_Burgess_cqe5ma.jpg"></div>
+                <div class="col mt-1" style="text-align: center;"><img class="pet_brand" src="assets/img/Food%20logo/BrandBox_Iams_hgoisv.jpg"></div>
+                <div class="col mt-1" style="text-align: center;"><img class="pet_brand" src="assets/img/Food%20logo/BrandBox_JamesWellbeloved_yfmbte.jpg"></div>
+                <div class="col mt-1" style="text-align: center;"><img class="pet_brand" src="assets/img/Food%20logo/BrandBox_Orijen_hyqirn.jpg"></div>
+                <div class="col mt-1" style="text-align: center;"><img class="pet_brand" src="assets/img/Food%20logo/Royal-Canin---Logo---Red_hdo7pb.jpg"></div>
+                <div class="col mt-1" style="text-align: center;"><img class="pet_brand" src="assets/img/Food%20logo/more.png"></div>
+            </div><!-- End: Food brands -->
+            <!-- Start: title for food section -->
+            <div class="row mt-3">
+                <div class="col col-8 pet_h3">
+                    <h3 style="font-family: Jaldi, sans-serif;color: rgb(252,184,67);font-weight: bold;"><strong>Tasty &amp; Healthy Foods 4YourPets</strong><span class="badge badge-warning ml-2" style="color: var(--white);font-family: Jaldi, sans-serif;"><i class="fas fa-shopping-bag"></i>&nbsp;0 ITEM</span></h3>
+                </div>
+                <div class="col col-4 text-right"><span class="badge badge-primary" style="background: #FCB843;"><a href="#" style="color: rgb(255,255,255);font-weight: bold;font-size: 14px;text-decoration: none;">See All&nbsp;</a><i class="fas fa-angle-right"></i></span></div>
+            </div><!-- End: title for food section -->
+            <!-- Start: food cart -->
+            <div class="row cart_visibility">
+                <div class="col col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card pet_product"><img class="card-img-top w-100 d-block" src="assets/img/Product/SP_604055_Packshot_mgfaj7.jpg" style="height: 250px;" loading="lazy" alt="food">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center"><small style="color: var(--gray);">1.5 kg</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet...<br></h6>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <p style="color: rgb(252,184,67);"><strong>BDT</strong> 2,050</p><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card pet_product"><img class="card-img-top w-100 d-block" src="assets/img/Product/whiskas_1_chicken_gv4pmk.jpg" style="height: 250px;" loading="lazy" alt="food">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center"><small style="color: var(--gray);">2 kg</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet...<br></h6>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <p style="color: rgb(252,184,67);"><strong>BDT</strong> 1,700</p><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card pet_product"><img class="card-img-top w-100 d-block" src="assets/img/Product/5025838006180_T19.jpg" style="height: 250px;" loading="lazy" alt="food">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center"><small style="color: var(--gray);">1.5 kg</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet...<br></h6>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <p style="color: rgb(252,184,67);"><strong>BDT</strong> 3,500</p><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3 mt-2 d-md-none d-lg-block">
+                    <div class="card-group shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card pet_product"><img class="card-img-top w-100 d-block" src="assets/img/Product/7613034276551_t517_wombu8.jpg" style="height: 250px;" alt="food" loading="lazy">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center"><small style="color: var(--gray);">2.7 kg</small></div>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet...<br></h6>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <p style="color: rgb(252,184,67);"><strong>BDT</strong>&nbsp;2,500</p><button class="btn btn-warning pet_button" type="button" style="background: rgb(252, 184, 67);">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End: food cart -->
+        </div>
+    </section><!-- End: Foods 4 pets -->
+    <!-- Start: Footer -->
+    <section>
+        <div class="d-flex justify-content-center mt-3 pt-2 pb-2" style="border-top: 2px solid orange;background-color: #FCB843;">
+            <h5 class="d-none d-sm-block" style="color: rgb(255,255,255);margin-top: 9px;font-size: 16px;">Safe and secure shopping :&nbsp; &nbsp;</h5><img class="mr-2" src="assets/img/payment/BKash-bKash-Logo.wine_65x46.png" style="height: 38px;"><img class="mr-2" src="assets/img/payment/logo-footer.png" style="height: 26px;margin-top: 5px;"><img src="assets/img/payment/master-card.png" style="height: 36px;"><img src="assets/img/payment/visa.png" style="height: 36px;">
+        </div><!-- Start: ♣ Footer with only BS4 classes ♣ -->
+        <footer class="bg-dark text-white border-top border-info">
+            <!-- Start: Footer 1 -->
+            <div class="container text-center text-sm-left position-relative py-5">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Connect With Us</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Like us on Facebook</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Follow us on Twitter</a></li>
+                            <li class="mb-2"><a class="text-light" href="#" style="text-decoration: none;">
+                                    <h1 style="font-family: 'Chelsea Market', serif;font-weight: bold;">Pets4You</h1>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Dogs &amp; Puppies 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Chihuahuas</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Cocker Spaniels</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">French Bulldogs</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Jackapoo</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Labradors</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Rottweiler</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Cats &amp; Kittens 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Bengals&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Shorthairs&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Oriental Cats</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Persian Cats</a></li>
+                            <li>Ragdoll Cats</li>
+                            <li>Snowshoe</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Other Pets 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Birds</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Fish&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Horses&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Poultry&nbsp;</a></li>
+                            <li>Rabbits </li>
+                            <li>Rodents </li>
+                        </ul>
+                    </div>
+                </div><!-- Start: To top icon -->
+                <div class="text-center position-absolute w-100 mt-4"><a href="#top"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-dark"></i><i class="fa fa-angle-up fa-stack-1x text-white"></i></span></a></div><!-- End: To top icon -->
+            </div><!-- End: Footer 1 -->
+            <!-- Start: Footer 2 -->
+            <div class="pt-5 pb-4 text-dark" style="background-color: #FCB843;">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start: Company -->
+                        <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                            <h2 class="mb-3"><i class="fas fa-cat"></i>&nbsp;Pets4You</h2>
+                            <p class="mb-1"><i class="fa fa-map-marker fa-fw"></i>&nbsp;Pizza Road - Mirpur - Dhaka</p>
+                            <p class="mb-1"><i class="fa fa-phone fa-fw"></i>&nbsp;+880157526**77</p>
+                            <p class="mb-1"><i class="fa fa-envelope fa-fw"></i>&nbsp;<a class="text-dark" href="mailto:contact@company.com">contact@pets4you.com</a></p>
+                        </div><!-- End: Company -->
+                        <!-- Start: Text -->
+                        <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                            <p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div><!-- End: Text -->
+                        <!-- Start: Newsletter + social icons -->
+                        <div class="col-lg-4 text-center text-lg-right pb-4">
+                            <h3 class="mb-0">Follow us</h3>
+                            <p class="mb-2">Subscribe to our newsletter</p>
+                            <form class="d-flex justify-content-center justify-content-lg-end">
+                                <div class="form-group w-75">
+                                    <div class="input-group"><input class="form-control" type="text" required="" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$" inputmode="email">
+                                        <div class="input-group-append"><button class="btn btn-dark" type="submit">Go!</button></div>
+                                    </div>
+                                </div>
+                            </form><!-- Start: Socials -->
+                            <div><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-instagram fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-twitter fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-facebook-square fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-snapchat-ghost fa-2x"></i></a></div><!-- End: Socials -->
+                        </div><!-- End: Newsletter + social icons -->
+                    </div>
+                </div>
+            </div><!-- End: Footer 2 -->
+            <!-- Start: Copyright -->
+            <div class="text-center text-lg-left py-2 small bg-dark text-info font-italic">
+                <div class="container">
+                    <p class="m-0" style="color: orange;">© 2021 Pets4You ~ All rights reserved</p>
+                </div>
+            </div><!-- End: Copyright -->
+        </footer><!-- End: ♣ Footer with only BS4 classes ♣ -->
+    </section><!-- End: Footer -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Image-Tab-Gallery-Horizontal.js"></script>
+</body>
+
+</html>

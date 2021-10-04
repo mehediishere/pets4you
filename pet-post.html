@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Pets4You</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chelsea+Market">
+    <link rel="stylesheet" href="assets/css/DroidSans.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jaldi:400,700&amp;subset=devanagari">
+    <link rel="stylesheet" href="assets/css/Roboto.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/cartStyle.css">
+    <link rel="stylesheet" href="assets/css/pet-category-post.css">
+    <link rel="stylesheet" href="assets/css/pet-custom-image-tab.css">
+    <link rel="stylesheet" href="assets/css/pet-custom-nav-bar.css">
+    <link rel="stylesheet" href="assets/css/pet-login-join.css">
+    <link rel="stylesheet" href="assets/css/shadowAnimation.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="font-family: Jaldi, sans-serif;">
+    <!-- Start: Nav bar UI -->
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button" style="background: #fcb843;color: rgb(255,255,255);font-family: 'Chelsea Market', serif;">
+        <div class="container"><a class="navbar-brand" href="#" style="font-family: 'Chelsea Market', serif;font-size: 30px;">Pets4You</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto" style="color: rgb(255, 255, 255);">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-food.html">Pets Food</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-category.html">Pets Adoption</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pets-advice.html">Pets Advice</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Breeds&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Cat Breeds</a><a class="dropdown-item" href="pets-category.html">Dog Breeds</a><a class="dropdown-item" href="#">Exotics Breeds</a><a class="dropdown-item" href="#">Bird Breeds</a><a class="dropdown-item" href="#">Other Breeds</a></div>
+                    </li>
+                </ul><span class="navbar-text actions"> <a class="login" href="login.html">Log In</a><a class="btn btn-light action-button" role="button" href="join.html">Join Us</a></span>
+            </div>
+        </div>
+    </nav><!-- End: Nav bar UI -->
+    <!-- Start: Section+Container -->
+    <section>
+        <!-- Start: Image Tab Gallery Horizontal -->
+        <div class="container-fluid top-container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-4 offset-xl-2" style="border-right: 1px solid orange;">
+                    <div>
+                        <h3 style="color: var(--orange);font-weight: bold;font-family: DroidSans;">Sed ut perspiciatis unde omnis...<br></h3>
+                    </div><!-- Start: The expanding image container -->
+                    <div class="img-container">
+                        <!-- Start: Expanded image --><img class="rounded" id="expandedImg" style="width:100%" src="assets/img/adorable-animal-beautiful-1591939.jpg" loading="lazy" alt="dog"><!-- End: Expanded image -->
+                        <!-- Start: Image text -->
+                        <div id="imgtext"></div><!-- End: Image text -->
+                    </div><!-- End: The expanding image container -->
+                    <!-- Start: The grid: four columns -->
+                    <div class="row img-row" style="padding-right: 10px;padding-left: 10px;">
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/adorable-animal-beautiful-1591939.jpg" onclick="myFunction(this);" alt="image 1" loading="lazy"></div>
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/Cute-Pug-Dog.jpg" onclick="myFunction(this);" alt="image 2" loading="lazy"></div>
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/A-beautiful-pug-pugs-41524314-720-540.jpg" onclick="myFunction(this);" alt="image 3" loading="lazy"></div>
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/original.jpg" onclick="myFunction(this);" alt="image 4" loading="lazy"></div>
+                    </div><!-- End: The grid: four columns -->
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-4 offset-xl-0">
+                    <p style="font-size: 20px;font-family: DroidSans;"><strong>Mehedi Hasan</strong>&nbsp;<i class="fas fa-user-shield" style="color: var(--success);"></i>&nbsp;</p>
+                    <p style="font-size: 20px;margin-bottom: 0;"><i class="fas fa-map-marker-alt"></i>&nbsp; Mirpur-10, Dhaka-1216</p>
+                    <p style="font-size: 20px;margin-bottom: 0;"><i class="fas fa-user-clock"></i>&nbsp;Member Since 5th April 2021</p>
+                    <p style="font-size: 20px;"><i class="fas fa-phone-square-alt"></i>&nbsp; +880157526**77</p>
+                    <p style="color: var(--orange);font-size: 20px;text-align: left;font-family: DroidSans;font-weight: bold;margin-bottom: 0;border-bottom: 2px solid;">Pet Details</p>
+                    <ul class="list-unstyled text-monospace">
+                        <li>Type: Dog<br></li>
+                        <li>Age: 9 month<br></li>
+                        <li>Color: Brown<br></li>
+                        <li>Weight: 25kg</li>
+                        <li>Price: BDT 2,500</li>
+                        <li>Location : Mirpur-10<br></li>
+                    </ul>
+                    <p style="color: var(--orange);font-size: 20px;text-align: left;font-family: DroidSans;font-weight: bold;/*margin-bottom: 0;*/border-bottom: 2px solid;">Contact with Seller</p>
+                    <p style="margin-bottom: 0;">Email: mehedihasanp78@gmail.com</p><button class="btn btn-block msg" style="/*margin-top: 28px;*/font-family: DroidSans;">Send Message&nbsp;<i class="fas fa-comment-alt"></i></button>
+                </div>
+            </div>
+        </div><!-- End: Image Tab Gallery Horizontal -->
+    </section><!-- End: Section+Container -->
+    <!-- Start: pet adoption checklist -->
+    <section>
+        <div class="container mt-5">
+            <p><strong>☐ Pets Adoption Checklist</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat<br><br><strong>✔ Sed ut perspiciatis unde omnis iste natus</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur<br><br><strong>✔ Sed ut perspiciatis unde omnis iste natus</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><strong>✔ Sed ut perspiciatis unde omnis iste natus?</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;<br><br><strong>✔ Sed ut perspiciatis unde omnis iste natus?</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur<br><br><strong>✔ Sed ut perspiciatis unde omnis iste natus</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur<br><br>Also Please carefully read and review the <strong>terms and conditions</strong> before using our service.<br></p>
+        </div>
+    </section><!-- End: pet adoption checklist -->
+    <!-- Start: pets 4 you -->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col col-8 pet_h3">
+                    <h3 style="font-family: Jaldi, sans-serif;color: rgb(252,184,67);font-weight: bold;">Similar Pets4You</h3>
+                </div>
+                <div class="col col-4 text-right"></div>
+            </div>
+            <div class="row">
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/westie-grass.jpg" style="height: 210px;border-radius: 0% 30% 50% 70%;" loading="lazy" alt="dog">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;Mirpur-10</span>
+                                <h6 class="card-title d-block d-sm-none">Seal Point Ragdoll Kitten<br></h6>
+                                <h6 class="card-title d-none d-sm-block">Lorem ipsum dolor sit amet<br></h6>
+                                <p class="card-text" style="color: #FCB843;font-size: 20px;"><strong>BDT</strong> 2,500<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/pexels-photo-1108099.jpeg" style="height: 210px;border-radius: 0% 30% 50% 70%;" loading="lazy" alt="dog">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;Shyamoli</span>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet<br></h6>
+                                <p class="card-text" style="color: #FCB843;font-size: 20px;"><strong>BDT</strong> 3,000<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/image-placeholder-title-5109.jpg" style="height: 210px;border-radius: 0% 30% 50% 70%;" loading="lazy" alt="dog">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;Dhanmondi</span>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
+                                <p class="card-text" style="font-size: 20px;color: #FCB843;"><strong>BDT</strong> 1,500<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-sm-6 col-md-4 col-lg-3 d-md-none d-lg-block mt-2">
+                    <div class="card-group pet_card shadow-drop-2-top shadow-drop-2-bottom">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/A-beautiful-pug-pugs-41524314-720-540.jpg" style="height: 210px;border-radius: 0% 30% 50% 70%;" alt="dog" loading="lazy">
+                            <div class="card-body"><span style="font-size: 13px;color: rgb(252,184,67);"><i class="fas fa-map-marker-alt"></i>&nbsp;Mirpur-1</span>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
+                                <p class="card-text" style="color: #FCB843;font-size: 20px;"><strong>BDT</strong> 5,500<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End: pets 4 you -->
+    <!-- Start: Footer -->
+    <section>
+        <div class="d-flex justify-content-center mt-3 pt-2 pb-2" style="border-top: 2px solid orange;background-color: #FCB843;">
+            <h5 class="d-none d-sm-block" style="color: rgb(255,255,255);margin-top: 9px;font-size: 16px;">Safe and secure shopping :&nbsp; &nbsp;</h5><img class="mr-2" src="assets/img/payment/BKash-bKash-Logo.wine_65x46.png" style="height: 38px;"><img class="mr-2" src="assets/img/payment/logo-footer.png" style="height: 26px;margin-top: 5px;"><img src="assets/img/payment/master-card.png" style="height: 36px;"><img src="assets/img/payment/visa.png" style="height: 36px;">
+        </div><!-- Start: ♣ Footer with only BS4 classes ♣ -->
+        <footer class="bg-dark text-white border-top border-info">
+            <!-- Start: Footer 1 -->
+            <div class="container text-center text-sm-left position-relative py-5">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Connect With Us</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Like us on Facebook</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Follow us on Twitter</a></li>
+                            <li class="mb-2"><a class="text-light" href="#" style="text-decoration: none;">
+                                    <h1 style="font-family: 'Chelsea Market', serif;font-weight: bold;">Pets4You</h1>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Dogs &amp; Puppies 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Chihuahuas</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Cocker Spaniels</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">French Bulldogs</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Jackapoo</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Labradors</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Rottweiler</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Cats &amp; Kittens 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Bengals&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Shorthairs&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Oriental Cats</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Persian Cats</a></li>
+                            <li>Ragdoll Cats</li>
+                            <li>Snowshoe</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 class="text-info pb-2 border-bottom border-warning pet_footer_header">Other Pets 4You</h3>
+                        <ul class="list-unstyled d-inline-block d-sm-block">
+                            <li class="mb-2"><a class="text-light" href="#">Birds</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Fish&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Horses&nbsp;</a></li>
+                            <li class="mb-2"><a class="text-light" href="#">Poultry&nbsp;</a></li>
+                            <li>Rabbits </li>
+                            <li>Rodents </li>
+                        </ul>
+                    </div>
+                </div><!-- Start: To top icon -->
+                <div class="text-center position-absolute w-100 mt-4"><a href="#top"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-dark"></i><i class="fa fa-angle-up fa-stack-1x text-white"></i></span></a></div><!-- End: To top icon -->
+            </div><!-- End: Footer 1 -->
+            <!-- Start: Footer 2 -->
+            <div class="pt-5 pb-4 text-dark" style="background-color: #FCB843;">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start: Company -->
+                        <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                            <h2 class="mb-3"><i class="fas fa-cat"></i>&nbsp;Pets4You</h2>
+                            <p class="mb-1"><i class="fa fa-map-marker fa-fw"></i>&nbsp;Pizza Road - Mirpur - Dhaka</p>
+                            <p class="mb-1"><i class="fa fa-phone fa-fw"></i>&nbsp;+880157526**77</p>
+                            <p class="mb-1"><i class="fa fa-envelope fa-fw"></i>&nbsp;<a class="text-dark" href="mailto:contact@company.com">contact@pets4you.com</a></p>
+                        </div><!-- End: Company -->
+                        <!-- Start: Text -->
+                        <div class="col-md-6 col-lg-4 text-center text-md-left pb-4">
+                            <p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div><!-- End: Text -->
+                        <!-- Start: Newsletter + social icons -->
+                        <div class="col-lg-4 text-center text-lg-right pb-4">
+                            <h3 class="mb-0">Follow us</h3>
+                            <p class="mb-2">Subscribe to our newsletter</p>
+                            <form class="d-flex justify-content-center justify-content-lg-end">
+                                <div class="form-group w-75">
+                                    <div class="input-group"><input class="form-control" type="text" required="" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$" inputmode="email">
+                                        <div class="input-group-append"><button class="btn btn-dark" type="submit">Go!</button></div>
+                                    </div>
+                                </div>
+                            </form><!-- Start: Socials -->
+                            <div><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-instagram fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-twitter fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-facebook-square fa-2x"></i></a><a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-snapchat-ghost fa-2x"></i></a></div><!-- End: Socials -->
+                        </div><!-- End: Newsletter + social icons -->
+                    </div>
+                </div>
+            </div><!-- End: Footer 2 -->
+            <!-- Start: Copyright -->
+            <div class="text-center text-lg-left py-2 small bg-dark text-info font-italic">
+                <div class="container">
+                    <p class="m-0" style="color: orange;">© 2021 Pets4You ~ All rights reserved</p>
+                </div>
+            </div><!-- End: Copyright -->
+        </footer><!-- End: ♣ Footer with only BS4 classes ♣ -->
+    </section><!-- End: Footer -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Image-Tab-Gallery-Horizontal.js"></script>
+</body>
+
+</html>
